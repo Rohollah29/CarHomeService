@@ -30,7 +30,7 @@ fieldset {
     padding: 18px;
     border-radius: 6px;
     margin-bottom: 18px;
-    background: #fff; /* Keep fieldsets white for contrast */
+    background: #fff; 
     text-align: center;
 }
 
@@ -71,7 +71,7 @@ input[type="radio"] {
 }
 
 input#phone {
-    width: 60%; /* Make phone number input smaller */
+    width: 60%;
 }
 
 button {
