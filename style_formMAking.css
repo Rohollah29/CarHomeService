@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -11,7 +10,7 @@ body {
 }
 
 form {
-    background: #d3d3d3; /* Gray background color for the whole form */
+    background: #d3d3d3; 
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
