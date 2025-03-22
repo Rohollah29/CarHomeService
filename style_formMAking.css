@@ -1,52 +1,37 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    background-color: #f4f4f4;
 }
 
 form {
-    background: #d3d3d3; 
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
-    width: 100%;
-    max-width: 550px;
-}
-
-h2 {
-    text-align: center;
-    color: #333;
-    font-size: 24px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 fieldset {
-    border: 1px solid #ddd;
-    padding: 18px;
-    border-radius: 6px;
-    margin-bottom: 18px;
-    background: #fff; 
-    text-align: center;
-}
-
-legend {
-    font-weight: bold;
-    color: #333;
-    font-size: 18px;
-    text-align: center;
+    border: 2px solid #333;
+    padding: 15px;
+    margin-bottom: 15px;
 }
 
 label {
-    display: block;
-    margin: 12px 0 6px;
     font-weight: bold;
-    color: #555;
-    font-size: 16px;
-    text-align: left;
+    display: inline-block;
+    width: 150px;
+}
+
+input, select {
+    width: calc(100% - 160px);
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .gender-container {
@@ -55,42 +40,18 @@ label {
     gap: 10px;
 }
 
-input, select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 18px;
-}
-
-input[type="radio"] {
-    width: auto;
-    margin-right: 6px;
-}
-
-input#phone {
-    width: 60%;
-}
-
 button {
-    width: 100%;
     background-color: #28a745;
     color: white;
+    padding: 10px 15px;
     border: none;
-    padding: 12px;
-    font-size: 20px;
-    border-radius: 6px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    z-index: 10;
 }
 
 button:hover {
     background-color: #218838;
-}
-
-p {
-    text-align: center;
-    font-size: 16px;
-    color: #666;
 }
